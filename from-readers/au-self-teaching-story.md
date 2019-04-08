@@ -59,6 +59,13 @@ The Logician and the Engineer: George Boole and Claude Elwood Shannon Created Th
 > - 集合运算：并集（|）、交集（&)、差集（-）、对称差集（^ = | - &）
 
 
+## 20190408
+停一次就停了十二天，加油！
+
+### Part.1.E.7.files
+> - 文件打开模式（'w'写入（重建）、'x'排他模式，如果文件已存在则打开失败、'a'追加、'b'二进制、'+'读写模式（更新））
+> os.path.exists(f.name)、os.remove(f.name)
+
 
 
 
