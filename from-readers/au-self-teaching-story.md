@@ -64,7 +64,32 @@ The Logician and the Engineer: George Boole and Claude Elwood Shannon Created Th
 
 ### Part.1.E.7.files
 > - 文件打开模式（'w'写入（重建）、'x'排他模式，如果文件已存在则打开失败、'a'追加、'b'二进制、'+'读写模式（更新））
-> os.path.exists(f.name)、os.remove(f.name)
+> - os.path.exists(f.name)、os.remove(f.name)
+> - readlines()，每一行都有一个换行符 '\n'
+
+
+## 20190409
+### Part.1.F.deal-with-forward-references
+> - for ... else
+> - 从容面对 **Forward Reference**（过早引用）
+> - 读不懂也要读完，然后重复很多遍。（![(The Python Tutorial](https://docs.python.org/3/tutorial/index.html)、![PEP(Python Enhancement Proposals)](https://www.python.org/dev/peps/pep-0008/))
+> - 磨炼 **只字不差** 的能力
+> - 好的记忆很重要，最简单实用的方法是马上“总结、归纳、整理、组织” 关键知识点
+| Containers in Python |
+|:-----------------------:|
+| Sequence Type | Set | Map |
+|:--------------:|:-----:|:-----:|
+| ***String*** | Set | Dictionary |
+| *List*  | **Frozen Set** ||
+| ***range()*** | |
+| ***Tuple*** |  |
+| ***Bytes*** |  | 
+|-----:|
+| Immutable: Bold |
+| Ordered: Italic |
+
+
+
 
 
 
