@@ -72,7 +72,7 @@ The Logician and the Engineer: George Boole and Claude Elwood Shannon Created Th
 ### Part.1.F.deal-with-forward-references
 > - for ... else
 > - 从容面对 **Forward Reference**（过早引用）
-> - 读不懂也要读完，然后重复很多遍。（![(The Python Tutorial](https://docs.python.org/3/tutorial/index.html)、![PEP(Python Enhancement Proposals)](https://www.python.org/dev/peps/pep-0008/))
+> - 读不懂也要读完，然后重复很多遍。（[(The Python Tutorial](https://docs.python.org/3/tutorial/index.html)、[PEP(Python Enhancement Proposals)](https://www.python.org/dev/peps/pep-0008/))
 > - 磨炼 **只字不差** 的能力
 > - 好的记忆很重要，最简单实用的方法是马上“总结、归纳、整理、组织” 关键知识点
 
