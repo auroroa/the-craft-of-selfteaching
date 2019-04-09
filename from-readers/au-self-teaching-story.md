@@ -78,6 +78,7 @@ The Logician and the Engineer: George Boole and Claude Elwood Shannon Created Th
 
 | Containers in Python |
 |:-----------------------:|
+
 | Sequence Type | Set | Map |
 |:--------------:|:-----:|:-----:|
 | ***String*** | Set | Dictionary |
@@ -85,9 +86,9 @@ The Logician and the Engineer: George Boole and Claude Elwood Shannon Created Th
 | ***range()*** | |
 | ***Tuple*** |  |
 | ***Bytes*** |  |
+
+| Immutable: Bold，Ordered: Italic |
 |-----:|
-| Immutable: Bold |
-| Ordered: Italic |
 
 
 
