@@ -91,6 +91,21 @@ The Logician and the Engineer: George Boole and Claude Elwood Shannon Created Th
 |-----:|
 
 
+## 20190410
+### Part.1.G.The-Python-Tutorial-local
+> - 使用官方指南，因为它更全面、权威、准确，其他工具可能只是更适合“入门”
+> - [Guido van Rossume](https://gvanrossum.github.io/)
+> - <queriess> site:python.org
+
+### Part.2.A.Clumsy-and-patience
+> - 笨拙与耐心（学-练-用-造）
+> - 人生漫长，何必惊慌
+> - Forward references 的知识结构太多，保持耐心，充分预算
+
+### Part.2.B.Deliberate-practicing
+> - 不刻意练习，就是在混时间
+
+
 
 
 
