@@ -106,6 +106,18 @@ The Logician and the Engineer: George Boole and Claude Elwood Shannon Created Th
 > - 不刻意练习，就是在混时间
 
 
+## 20190411
+### Part.2.C.why-start-from-writing-functions
+> - [Python Demo](https://github.com/python/cpython/tree/master/Tools/demo)
+
+### Part.2.D.1-2-args
+> - 闰年（ year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)
+> - 注意可变容器（如 List/Set/Dictionary）作为参数传递会改变原始值，好习惯是对此类参数先创建拷贝如：b = a.copy()
+> - Order  of Arguments : Positional - Arbitrary positional - Keyword - Arbitrary keyword （ def say_hi(greeting='Hello', *names, capitalized=False, **other)）
+
+
+
+
 
 
 
