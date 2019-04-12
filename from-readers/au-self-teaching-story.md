@@ -116,6 +116,13 @@ The Logician and the Engineer: George Boole and Claude Elwood Shannon Created Th
 > - Order  of Arguments : Positional - Arbitrary positional - Keyword - Arbitrary keyword （ def say_hi(greeting='Hello', *names, capitalized=False, **other)）
 
 
+## 20190412
+### Part.2.D.3-lambda
+> - id(variable) 获取变量内存地址
+> - lambda 常用过即弃，比如结合 map(function, iterable, ...)
+
+
+
 
 
 
