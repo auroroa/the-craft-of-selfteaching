@@ -122,12 +122,29 @@ The Logician and the Engineer: George Boole and Claude Elwood Shannon Created Th
 > - lambda 常用过即弃，比如结合 map(function, iterable, ...)
 
 
+## 20190418
+### Part.2.D.4-recursion
+```
+def teach_yourself(anything):
+    while not create():
+        learn()
+	prictice()
+    return teach_yourself(another)
+
+teach_yourself(coding)
+```
+> - [Think Python: How to Think Like a Computer Scientist](http://greenteapress.com/thinkpython2/html/index.html)
 
 
+### Part.2.D.5-docstrings
+> - Docstring 规范: 三个双引号、内部文字前后不应有空行、第一行概要再空行再详情、尽量完善包含参数、返回值、可能的错误触发、函数限制等
+> - Docstring 调用：foo.__doc__、help(foo)
 
-
-
-
+### Part.2.D.6-modules
+> - 任何一个 .py 的文件都可以被称为**模块（Module）**
+> - import 模块的系统自动检测顺序：内建模块(sys.builtin_module_names) - sys.path 包含的目录(可通过 sys.path.append("/../..")添加搜索位置，当前路径排第一，append 路径排最后) 
+> - from mycode import xx(*) 的逻辑：当前目录存在 mycode.py 文件则从该模块中导入，如果不存在则检测是否有 mycode 文件夹以及该文件夹中是否包含 __init__.py 文件，如果存在则导入指定模块(也可以这样：import mycode.xx)
+> - dir() 函数可以查看可以触达的变量名称和函数名称
 
 
 
