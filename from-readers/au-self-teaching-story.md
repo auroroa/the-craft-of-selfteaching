@@ -135,7 +135,6 @@ teach_yourself(coding)
 ```
 > - [Think Python: How to Think Like a Computer Scientist](http://greenteapress.com/thinkpython2/html/index.html)
 
-
 ### Part.2.D.5-docstrings
 > - Docstring 规范: 三个双引号、内部文字前后不应有空行、第一行概要再空行再详情、尽量完善包含参数、返回值、可能的错误触发、函数限制等
 > - Docstring 调用：foo.__doc__、help(foo)
@@ -145,6 +144,19 @@ teach_yourself(coding)
 > - import 模块的系统自动检测顺序：内建模块(sys.builtin_module_names) - sys.path 包含的目录(可通过 sys.path.append("/../..")添加搜索位置，当前路径排第一，append 路径排最后) 
 > - from mycode import xx(*) 的逻辑：当前目录存在 mycode.py 文件则从该模块中导入，如果不存在则检测是否有 mycode 文件夹以及该文件夹中是否包含 __init__.py 文件，如果存在则导入指定模块(也可以这样：import mycode.xx)
 > - dir() 函数可以查看可以触达的变量名称和函数名称
+
+
+### Part.2.D.7-Test-Driven-Development
+> - In mathematics or computer science, an algorithm is an unambiguous specification of how to solve a class of problems. Algorithms can perform caculation, data processing and automated reasoning tasks.
+> - "Test Driven Development",通过先想办法验证结果而后从结果倒推
+> - unittest 等测试模块
+
+### Part.2.D.8-main
+> - 'is' 运算符,当且仅当左右两边是同一个对象时返回 'True' （ a = b 返回 True 的条件是 id(a) == id(b))
+
+### Part.2.E.deliberate-thinking
+> - deliberate thinking
+
 
 
 
