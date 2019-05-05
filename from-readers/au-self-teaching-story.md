@@ -158,5 +158,13 @@ teach_yourself(coding)
 > - deliberate thinking
 
 
+## 20190505
+### Part.3.A.conquering-difficulties
+> - Qonquering difficulties
+> - 读不懂也要读完，读完之后再读很多遍， Eureka
+> - - Class , OPP
+> - - Iterators、Generators、Decorators
+> - - Regular Expressions
+> - - Backus Normal Form
 
 
