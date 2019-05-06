@@ -168,3 +168,14 @@ teach_yourself(coding)
 > - - Backus Normal Form
 
 
+## 20190506
+### Part.3.B.1-2.class
+> - OOP(Object Oriented Programming), a Paradigm/Methodology
+> - __init__(self, variables), 初始化函数
+> - 变量名前加下划线（undersorce)的话，标明这是一个受保护（protected）变量，原则上不允许访问。但这只是程序员之间的一个约定。
+> - 变量名前加两个下划线，表示私有（private）变量，只允许类本身访问（子类也不行）。但事件上也可以通过改变变量名 _classname__variablename 来访问。
+> - Inheritance、Overrides、Encapsulation
+> - Scope: hasattr(object, attr)、getattr(object, attr)、setattr(object, attr, value)
+> - @property、@property.setter
+
+
