@@ -179,3 +179,15 @@ teach_yourself(coding)
 > - @property、@property.setter
 
 
+## 20190507
+### Part.3.B.3.decorator-iterator-generator
+> - DIG（Decorator、Iterator、Generator）
+> - Iterator 是一个类，包含 __iter__ 、__next__ 函数，iter() 可将“可迭代对象（iterable)”转换成“迭代器（iterator）”，迭代器有 next() 函数
+> - Generator 是一个函数，通过 yield 语句划分 next() 函数调用区间。
+> - (e for e in range(10) if not x%2)，返回 Iterator，[]则返回 List，{} 返回 Set
+> - Decorator。函数本身也是类（Python 定义的某个 Class 的一个 Instance），因此它同样可以作为参数或返回值。
+> - return func (返回函数 func 本身）、return func()（返回函数 func 的执行结果）。通过 @ 装饰符可以装饰函数 func ，返回 func 本身，在 func() 调用是执行 func 本身。
+> - Decorator 执行顺序是 **由下至上（由内到外）**
+> - Deliberate practice
+
+
