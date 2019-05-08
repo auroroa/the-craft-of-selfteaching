@@ -188,6 +188,22 @@ teach_yourself(coding)
 > - Decorator。函数本身也是类（Python 定义的某个 Class 的一个 Instance），因此它同样可以作为参数或返回值。
 > - return func (返回函数 func 本身）、return func()（返回函数 func 的执行结果）。通过 @ 装饰符可以装饰函数 func ，返回 func 本身，在 func() 调用是执行 func 本身。
 > - Decorator 执行顺序是 **由下至上（由内到外）**
-> - Deliberate practice
+> - [Deliberate practice](https://wiki.python.org/moin/PythonDecoratorLibrary)
+
+
+## 20190508
+### Part.3.B.4.regex
+> - 一个正则表达（Regular Expression）通常被称为一个模式（Parttern）
+> - 优先级
+|排序|原子与操作符|符号|
+|----|------------|----|
+|1|转义字符（Escaping Symbol）| `\`|
+|2|分组、捕获（Grouping or capturing）| `(...)`  `(?:...)`  `(?=...)`  `(?!...)`  `(?<=...)`  `(?<!...)`|
+|3|数量（Quantifiers）| `a*`  `a+`  `a?`  `a{m,n}`|
+|4|序列与定位（Sequence and Anchor）| `abc`  `$`  `^`  `\b`  `\B`|
+|5|或（Alternation）| `|`|
+|6|原子（Atom）| `a`  `[abc]`  `\t`  `\n`  `\r`  `\d`  `\D`  `\s`  `\S`  `\w`  `\W`  `.`|
+> - string.ascii_letters、string.digits
+
 
 
