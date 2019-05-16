@@ -191,19 +191,42 @@ teach_yourself(coding)
 > - [Deliberate practice](https://wiki.python.org/moin/PythonDecoratorLibrary)
 
 
-## 20190508
+## 20190508 / 20190516
 ### Part.3.B.4.regex
 > - 一个正则表达（Regular Expression）通常被称为一个模式（Parttern）
+> - regex 是用来处理文本不可或缺的工具，通过定义 parttern 来 search/scan、Match、Capture、Replace
 > - 优先级
+
 |排序|原子与操作符|符号|
-|----|------------|----|
+|:----:|:------------:|:----:|
 |1|转义字符（Escaping Symbol）| `\`|
 |2|分组、捕获（Grouping or capturing）| `(...)`  `(?:...)`  `(?=...)`  `(?!...)`  `(?<=...)`  `(?<!...)`|
 |3|数量（Quantifiers）| `a*`  `a+`  `a?`  `a{m,n}`|
 |4|序列与定位（Sequence and Anchor）| `abc`  `$`  `^`  `\b`  `\B`|
 |5|或（Alternation）| `|`|
 |6|原子（Atom）| `a`  `[abc]`  `\t`  `\n`  `\r`  `\d`  `\D`  `\s`  `\S`  `\w`  `\W`  `.`|
-> - string.ascii_letters、string.digits
+
+> - 集合原子：string.ascii_letters、string.digits、[^...]（非...）
+> - 类别原子：\d/\D（[0-9]/[^0-9]）、\w/\W（[a-zA-Z0-9]/[^a-zA-Z0-9]）、\s/\S（[\f\n\r\t\v]/[^\f\n\r\t\v]）。类别含义：d（digits）、w（world characters）、s（spaces）、f（flip）、n（new line）、r（return）、t（tab）、v（vertical tab）
+> - 边界原子：^（\A）、$（\Z）、\b（单词边界，如 'er\b' 匹配 coder 中的 er，不匹配 error 中的 er）、\B（非单词边界）
+> - []（方括号）中的 '|'、'('、')' 都代表本身，无特殊符号含义
+> - 匹配并捕获。re.sub(pttn, rep, str) 可以用索引 \1, \2 ... 进行特换。
+```
+import re
+str = 'The white dog wears a black hat.'
+pttn = r'The (white|black) dog wears a (white|black) hat.'
+re.findall(pttn, str)
+# [('white', 'black')]
+repl = r'The \2 dog wears a \1 hat.'
+re.sub(pttn, repl, str)
+# 'The black dog wears a white hat.'
+repl = r'The \1 dog wears a \1 hat.'
+re.sub(pttn, repl, str)
+# 'The white dog wears a white hat.'
+```
+> - 非捕获匹配。(?...) (?!...) (?=...) (?<=...) (?<!...) 匹配但不引用返回
+> - 控制标记（默认 G 和 M，Globel、Multiline）
+
 
 
 
