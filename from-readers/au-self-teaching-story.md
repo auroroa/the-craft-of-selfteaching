@@ -233,3 +233,51 @@ re.sub(pttn, repl, str)
 > - ebnf（Extended Backus-Naur Form）：巴科斯-诺尔范式
 
 
+## 20190528 - 20190529
+### Part.3.C.breaking-good-and-bad.ipynb ~ Part.3.D.indispensable-illusion.ipynb
+> - 机械化思维，目标拆解
+> - 几乎任何事情，更多的工作量应该放在把事件拆解为各个流程上，并清楚的把每个流程考虑周到
+> - 只有你真正掌握了某项技能之后，他才会变成刚需（刚需幻觉）
+
+### Part.3.E.a.to-be-thorough  ~ Part.3.F.social-selfteaching.ipynb ~ Part.3.G.the-golden-age-and-Google.ipynb
+> - 所谓不混时间，在于 **刻意练习、追求全面**，多读书，**教** 是最好的学习方法
+> - **学**然后知不足，**教**然后知困。知不足，然后能自反也；知困，然后能自强也。故曰：“教学相长也”。
+> - [How to use Google](https://www.lifehack.org/articles/technology/20-tips-use-google-search-efficiently.html) and [How to ask questions the smart way](http://www.catb.org/~esr/faqs/smart-questions.html)
+> - [Google Search 官方文档](https://support.google.com/websearch#topic=3378866)、[Google Custom Search](https://support.google.com/customsearch/#topic=4513742)
+> - Mirror Neuron. No Matter what you choose, **built stuff** and be around smart people.
+> - [KISS Principle](https://en.wikipedia.org/wiki/KISS_principle). Keep in Simple and Stupied(Silly)
+
+### Part.3.H.prevent-focus-drifting.ipynb
+> - 把“全面完整”放到最高优先级
+> - 动手前，罗列完整要做到“全面完整”而必须优先做的事情，集中注意力在优先级高的事情上
+
+### good-communication.ipynb
+> - “无他，唯手熟尔”
+> - Teaching is the best learning
+> - Love is the Power
+
+## 20190530
+### R.finale.ipynb
+```
+你一定要想办法启动自学，否则你没有未来；
+你把自学当作一门手艺，长期反复磨练它；
+你懂得学、练、用、造各个阶段之间的不同，以及针对每个阶段的对应策略；
+面对 “过早引用” 过多的世界，你有你的应对方式；
+你会 “囫囵吞枣”，你会 “重复重复再重复”，你深刻理解 “读书百遍其义自见”；
+以后你最擅长的技能之一就是拆解拆解再拆解；
+你用你的拆解手艺把所有遇到的难点都拆解成能搞定的小任务；
+自学任何一门手艺之前你都不会去问 “有什么用”，而是清楚地知道，无论是什么只要学会了就只能也必然天天去用；
+你没有刚需幻觉，你也没有时间幻觉，你更没有困难幻觉，反正你就是相对更清醒；
+不管你新学什么手艺，你都知道只要假以时日你就肯定能做好，因为所有的手艺精湛，靠的只不过是充足的预算；
+你知道如何不浪费生命，因为只要不是在刻意练习、不是在刻意思考，那就是在 “混时间”；
+你总是在琢磨你能做个什么新作品；
+你刻意地使用你的作品作为有效社交工具，也用作品去过滤无效社交；
+你乐于分享，乐于阅读也更乐于写作 —— 因为这世界怎么帮助你的，你就想着要怎样回报；
+你把全面和完整当作最高衡量标准，也用这个标准去克制、应对自己的注意力漂移；
+你会不断自学新的手艺，因为你越来越理解单一技能的脆弱，越来越理解多项技能的综合威力；
+你越来越依赖互联网，它是你最喜欢的 “书”，而 Google 是你最好的朋友 —— 他总是能帮你找到更好的老师；
+偶尔，你会学会没人教、没人带、甚至没书可参考的手艺，别人都说你 “悟性” 高，可你自己清楚地知道那其实是怎么回事；
+你越来越明白，其实没什么 “秘密”，越简单、越朴素的道理越值得重视；
+你发现你用来思考的时间越来越多 —— 准确地讲，是 “琢磨”…… 只不过是因为你真会琢磨了 —— 你很清楚你应
+```
+### [Learn Python](https://github.com/selfteaching/the-craft-of-selfteaching/blob/master/S.whats-next.ipynb)
